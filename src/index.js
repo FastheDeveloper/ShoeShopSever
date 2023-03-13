@@ -4,8 +4,10 @@ const orderRoutes = require('./router/orderRoutes')
 const bodyParser = require('body-parser')
 
 const app = express();
-const PORT = 3000;
-
+const portNumber = 19000;
+const ipAddress = "192.168.43.1";
+const PORT = 1900;
+// 192.168.43.1:19000 make this the port numberof a aport const
 app.use(bodyParser.json())
 app.use('/products', productRoutes)
 app.use('/orders', orderRoutes)

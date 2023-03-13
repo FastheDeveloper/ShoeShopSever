@@ -12,7 +12,6 @@ const products = database.collection('products')
 const orders = database.collection('orders')
 
 module.exports = {
-        products,
-        orders
-    }
-    //the git ignore file should ignoree all package.jsaon and package-lock.json
+    products,
+    orders
+}
