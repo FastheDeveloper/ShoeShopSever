@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router();
 const stripe = require('stripe')(
-    'sk_test_51Mmy8ICMK9tGvZA1QtSSRxjfHZouoSygYskkzmGT0s6StYVoDADAVBsRbcYT3fzzJGCR6m3EoPvlMss3u1Miv9u300vk9TEtTZ');
+    'STRIPE SECRET KEY HERE');
 
 
 //Router Endpoints
