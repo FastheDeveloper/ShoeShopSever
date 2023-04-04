@@ -6,7 +6,7 @@ const bodyParser = require('body-parser')
 
 const app = express();
 const portNumber = 19000;
-const ipAddress = "192.168.43.1";
+const ipAddress = "192.168.43.31";
 const PORT = 1900;
 // 192.168.43.1:19000 make this the port numberof a aport const
 app.use(bodyParser.json())
